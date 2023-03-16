@@ -2,6 +2,7 @@ from __future__ import print_function
 
 import datetime
 import os.path
+import json
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -45,7 +46,24 @@ def main():
                                               maxResults=10, singleEvents=True,
                                               orderBy='startTime').execute()
         events = events_result.get('items', [])
-        print(events)
+        json_object = json.dumps(events, indent = 4)
+
+        with open("events.json", "w") as outfile:
+            outfile.write(json_object)
+        
+        
+        for event in events:
+            firstEvent = event['start']['dateTime']
+            if (event['kind'] == 'calendar#event'):
+                print(event['summary'], ":", firstEvent)
+            
+            # fullTime = parser.parse(event['start'].get('dateTime'))
+            # startYear = fullTime.year
+            # startMonth = fullTime.month
+            # startDay = fullTime.day
+            # startHour = fullTime.hour
+            # startMinute = fullTime.minute
+            # print(startHour, ":", startMinute)
         
         if not events:
             print('No upcoming events found.')
