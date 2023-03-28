@@ -10,11 +10,16 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
-# If modifying these scopes, delete the file token.json.
+# If modifying these scopes, delete the file token.json.6
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
 
-
 def main():
+    hoursNeeded = int(input("How many hours do you need from the start of your alarm to your first commitment?\n"))
+    minsNeeded = int(input("How many minutes do you need from the start of your alarm to your first commitment?\n"))
+    
+    timeNeededinMins = hoursNeeded * 60 + minsNeeded
+    print(timeNeededinMins)
+        
     """Shows basic usage of the Google Calendar API.
     Prints the start and name of the next 10 events on the user's calendar.
     """
@@ -50,29 +55,26 @@ def main():
 
         with open("events.json", "w") as outfile:
             outfile.write(json_object)
-        
-        
+
+        firstEvent = 2561
         for event in events:
-            firstEvent = event['start']['dateTime']
+            currEvent = event['start']['dateTime']
             if (event['kind'] == 'calendar#event'):
-                print(event['summary'], ":", firstEvent)
-            
-            # fullTime = parser.parse(event['start'].get('dateTime'))
-            # startYear = fullTime.year
-            # startMonth = fullTime.month
-            # startDay = fullTime.day
-            # startHour = fullTime.hour
-            # startMinute = fullTime.minute
-            # print(startHour, ":", startMinute)
+                timeString = str(currEvent)
+                eventStartTime = timeString[11:13] + timeString[14:16]
+                if (int(eventStartTime) < int(firstEvent)):
+                    firstEvent = eventStartTime
+                    firstEventInMins = int(timeString[11:13]) * 60 # + int(timeString[14:16])
+                    
+        print(firstEvent)
+        print(firstEventInMins)
         
+        # alarmTime = int(eventStartTime) - int(timeNeeded)
+        # print("alarm rings at: ", alarmTime)
+
         if not events:
             print('No upcoming events found.')
             return
-
-        # Prints the start and name of the next 10 events
-        for event in events:
-            start = event['start'].get('dateTime', event['start'].get('date'))
-            print(start, event['summary'])
 
     except HttpError as error:
         print('An error occurred: %s' % error)
