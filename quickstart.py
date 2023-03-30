@@ -3,12 +3,15 @@ from __future__ import print_function
 import datetime
 import os.path
 import json
+import time
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
+from pygame import mixer
+# import pytz
 
 # If modifying these scopes, delete the file token.json.6
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
@@ -17,9 +20,9 @@ def main():
     hoursNeeded = int(input("How many hours do you need from the start of your alarm to your first commitment?\n"))
     minsNeeded = int(input("How many minutes do you need from the start of your alarm to your first commitment?\n"))
     
-    timeNeededinMins = hoursNeeded * 60 + minsNeeded
-    print(timeNeededinMins)
+    timeNeededinMins = int(hoursNeeded * 60 + minsNeeded)
         
+    
     """Shows basic usage of the Google Calendar API.
     Prints the start and name of the next 10 events on the user's calendar.
     """
@@ -64,13 +67,32 @@ def main():
                 eventStartTime = timeString[11:13] + timeString[14:16]
                 if (int(eventStartTime) < int(firstEvent)):
                     firstEvent = eventStartTime
-                    firstEventInMins = int(timeString[11:13]) * 60 # + int(timeString[14:16])
+                    firstEventInMins = (int(timeString[11:13]) * 60) + int(timeString[14:16])
                     
-        print(firstEvent)
-        print(firstEventInMins)
+        alarmTimeInMins = firstEventInMins - timeNeededinMins
+        minutes = int(alarmTimeInMins % 60)
+        hours = int((alarmTimeInMins - minutes) / 60)
+        alarmTime = str(hours) + ":" + (str(minutes)).zfill(2)
+
+        print("Alarm will ring at", alarmTime)
+        print(now)
         
-        # alarmTime = int(eventStartTime) - int(timeNeeded)
-        # print("alarm rings at: ", alarmTime)
+        # Play alarm sound
+        # mixer.init() 
+        # sound=mixer.Sound("alarm-clock.wav")
+        
+        # soundTimeEnd = time.time() + sound.get_length()
+        # while (time.time() < soundTimeEnd):
+        #     sound.play()
+        
+        # Get the timezone object for New York
+        # tz_NY = pytz.timezone('America/New_York') 
+
+        # Get the current time in New York
+        # datetime_NY = datetime.now(tz_NY)
+
+        # Format the time as a string and print it
+        # print("NY time:", datetime_NY.strftime("%H:%M:%S"))
 
         if not events:
             print('No upcoming events found.')
