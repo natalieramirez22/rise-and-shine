@@ -1,13 +1,13 @@
 [
     {
         "kind": "calendar#event",
-        "etag": "\"3360374623498000\"",
-        "id": "46t9nbv9e2p72264l206l3q8qh",
+        "etag": "\"3360998927292000\"",
+        "id": "15npkbegdgkca5dodg8nn600ar",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=NDZ0OW5idjllMnA3MjI2NGwyMDZsM3E4cWggbmF0cmFtQHVtaWNoLmVkdQ",
-        "created": "2023-03-30T14:30:54.000Z",
-        "updated": "2023-03-30T14:41:51.749Z",
-        "summary": "Test Event 1",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MTVucGtiZWdkZ2tjYTVkb2RnOG5uNjAwYXIgbmF0cmFtQHVtaWNoLmVkdQ",
+        "created": "2023-04-03T04:26:27.000Z",
+        "updated": "2023-04-03T05:24:23.646Z",
+        "summary": "First Event",
         "creator": {
             "email": "natram@umich.edu",
             "self": true
@@ -17,15 +17,15 @@
             "self": true
         },
         "start": {
-            "dateTime": "2023-03-30T14:00:00-04:00",
+            "dateTime": "2023-04-03T01:30:00-04:00",
             "timeZone": "America/New_York"
         },
         "end": {
-            "dateTime": "2023-03-30T17:00:00-04:00",
+            "dateTime": "2023-04-03T03:30:00-04:00",
             "timeZone": "America/New_York"
         },
-        "iCalUID": "46t9nbv9e2p72264l206l3q8qh@google.com",
-        "sequence": 3,
+        "iCalUID": "15npkbegdgkca5dodg8nn600ar@google.com",
+        "sequence": 17,
         "reminders": {
             "useDefault": true
         },
