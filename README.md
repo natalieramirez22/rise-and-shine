@@ -3,8 +3,9 @@
 - The goal is to prevent people from sleeping through their commitments, especially in the morning.
 
 
-## Quickstart
+## Quickstart (to run on personal machine)
 - Clone repo and run on coding editor (must have Python installed)
+- Install the Google client library for Python: `pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
 - `python3 quickstart.py` to run program
 
 ### Developers
