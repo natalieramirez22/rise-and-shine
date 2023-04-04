@@ -4,6 +4,7 @@ import datetime
 import os.path
 import json
 import time
+import math
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -85,7 +86,7 @@ def main():
         alarmTimeSecs = (firstEventInMins*60) - (timeNeededinMins * 60)
         currTimeSecs = int(currTimeMilitary[0:2]) * 3600 + int(currTimeMilitary[3:5]) * 60 + int(currTimeMilitary[6:8])
         
-        waitTimeSecs = alarmTimeSecs - currTimeSecs
+        waitTimeSecs = abs(alarmTimeSecs - currTimeSecs)
         
         # wait until it is time for alarm to sound
         if (currTime != alarmTime):

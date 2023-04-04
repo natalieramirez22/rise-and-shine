@@ -1,12 +1,12 @@
 [
     {
         "kind": "calendar#event",
-        "etag": "\"3360998927292000\"",
-        "id": "15npkbegdgkca5dodg8nn600ar",
+        "etag": "\"3361161301598000\"",
+        "id": "7p64dba5c9r1b16860pmdtqah8",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MTVucGtiZWdkZ2tjYTVkb2RnOG5uNjAwYXIgbmF0cmFtQHVtaWNoLmVkdQ",
-        "created": "2023-04-03T04:26:27.000Z",
-        "updated": "2023-04-03T05:24:23.646Z",
+        "htmlLink": "https://www.google.com/calendar/event?eid=N3A2NGRiYTVjOXIxYjE2ODYwcG1kdHFhaDggbmF0cmFtQHVtaWNoLmVkdQ",
+        "created": "2023-04-04T03:57:30.000Z",
+        "updated": "2023-04-04T03:57:30.799Z",
         "summary": "First Event",
         "creator": {
             "email": "natram@umich.edu",
@@ -17,15 +17,15 @@
             "self": true
         },
         "start": {
-            "dateTime": "2023-04-03T01:30:00-04:00",
+            "dateTime": "2023-04-04T06:00:00-04:00",
             "timeZone": "America/New_York"
         },
         "end": {
-            "dateTime": "2023-04-03T03:30:00-04:00",
+            "dateTime": "2023-04-04T08:00:00-04:00",
             "timeZone": "America/New_York"
         },
-        "iCalUID": "15npkbegdgkca5dodg8nn600ar@google.com",
-        "sequence": 17,
+        "iCalUID": "7p64dba5c9r1b16860pmdtqah8@google.com",
+        "sequence": 0,
         "reminders": {
             "useDefault": true
         },
@@ -33,12 +33,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3360200094572000\"",
+        "etag": "\"3361150321086000\"",
         "id": "3jki5d5dc77g4m3m8212natltc",
         "status": "confirmed",
         "htmlLink": "https://www.google.com/calendar/event?eid=M2praTVkNWRjNzdnNG0zbTgyMTJuYXRsdGMgbmF0cmFtQHVtaWNoLmVkdQ",
         "created": "2023-03-24T15:37:06.000Z",
-        "updated": "2023-03-29T14:27:27.286Z",
+        "updated": "2023-04-04T02:26:00.543Z",
         "summary": "Madrid PDO Make Up - Required Advising Session",
         "creator": {
             "email": "smeer@umich.edu"
@@ -59,7 +59,7 @@
         "attendees": [
             {
                 "email": "angelmgb@umich.edu",
-                "responseStatus": "needsAction"
+                "responseStatus": "accepted"
             },
             {
                 "email": "smeer@umich.edu",
