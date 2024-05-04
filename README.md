@@ -5,6 +5,7 @@
 # What I Learned
 * Python automated scripting
 * Google Calendar API connection
+* Utilizing audio in Python
 
 ## Quickstart (to run on personal machine)
 * Clone repo and run on coding editor (must have Python installed)
