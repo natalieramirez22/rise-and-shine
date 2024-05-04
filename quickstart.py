@@ -60,14 +60,16 @@ def main():
             outfile.write(json_object)
 
         firstEvent = 2561
-        for event in events:
-            currEvent = event['start']['dateTime']
-            if (event['kind'] == 'calendar#event'):
-                timeString = str(currEvent)
-                eventStartTime = timeString[11:13] + timeString[14:16]
-                if (int(eventStartTime) < int(firstEvent)):
-                    firstEvent = eventStartTime
-                    firstEventInMins = (int(timeString[11:13]) * 60) + int(timeString[14:16])
+        # for event in events:
+        #     if event['start']['dateTime']:
+        currEvent = events[0]['start']['dateTime']
+        if (events[0]['kind'] == 'calendar#event'):
+            timeString = str(currEvent)
+            eventStartTime = timeString[11:13] + timeString[14:16]
+            if (int(eventStartTime) < int(firstEvent)):
+                firstEvent = eventStartTime
+                firstEventInMins = (int(timeString[11:13]) * 60) + int(timeString[14:16])
+                
                     
         alarmTimeInMins = firstEventInMins - timeNeededinMins
         minutes = int(alarmTimeInMins % 60)

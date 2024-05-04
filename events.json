@@ -1,13 +1,13 @@
 [
     {
         "kind": "calendar#event",
-        "etag": "\"3361161301598000\"",
-        "id": "7p64dba5c9r1b16860pmdtqah8",
+        "etag": "\"3429720667768000\"",
+        "id": "2eol4c8r9s7htg7qfllc9tuanf",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=N3A2NGRiYTVjOXIxYjE2ODYwcG1kdHFhaDggbmF0cmFtQHVtaWNoLmVkdQ",
-        "created": "2023-04-04T03:57:30.000Z",
-        "updated": "2023-04-04T03:57:30.799Z",
-        "summary": "First Event",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MmVvbDRjOHI5czdodGc3cWZsbGM5dHVhbmYgbmF0cmFtQHVtaWNoLmVkdQ",
+        "created": "2024-05-04T21:11:58.000Z",
+        "updated": "2024-05-04T22:05:33.884Z",
+        "summary": "Test Event",
         "creator": {
             "email": "natram@umich.edu",
             "self": true
@@ -17,14 +17,225 @@
             "self": true
         },
         "start": {
-            "dateTime": "2023-04-04T06:00:00-04:00",
+            "dateTime": "2024-05-04T19:00:00-04:00",
             "timeZone": "America/New_York"
         },
         "end": {
-            "dateTime": "2023-04-04T08:00:00-04:00",
+            "dateTime": "2024-05-04T21:00:00-04:00",
             "timeZone": "America/New_York"
         },
-        "iCalUID": "7p64dba5c9r1b16860pmdtqah8@google.com",
+        "iCalUID": "2eol4c8r9s7htg7qfllc9tuanf@google.com",
+        "sequence": 2,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3427487943212000\"",
+        "id": "53j6u816kc90sebuin4vharbms_20240506T003000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NTNqNnU4MTZrYzkwc2VidWluNHZoYXJibXNfMjAyNDA1MDZUMDAzMDAwWiBuYXRyYW1AdW1pY2guZWR1",
+        "created": "2024-03-09T18:56:35.000Z",
+        "updated": "2024-04-21T23:59:31.606Z",
+        "summary": "WEB REDESIGN PROJECT \ud83d\udcbb",
+        "location": "https://umich.zoom.us/j/9105195665",
+        "creator": {
+            "email": "ronith@umich.edu"
+        },
+        "organizer": {
+            "email": "ronith@umich.edu"
+        },
+        "start": {
+            "dateTime": "2024-05-05T20:30:00-04:00",
+            "timeZone": "America/Detroit"
+        },
+        "end": {
+            "dateTime": "2024-05-05T21:00:00-04:00",
+            "timeZone": "America/Detroit"
+        },
+        "recurringEventId": "53j6u816kc90sebuin4vharbms_R20240422T003000",
+        "originalStartTime": {
+            "dateTime": "2024-05-05T20:30:00-04:00",
+            "timeZone": "America/Detroit"
+        },
+        "iCalUID": "53j6u816kc90sebuin4vharbms_R20240422T003000@google.com",
+        "sequence": 1,
+        "attendees": [
+            {
+                "email": "natram@umich.edu",
+                "self": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "ronith@umich.edu",
+                "organizer": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "jerusham@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "sabrinx@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "fdelmoli@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "ydaniel@umich.edu",
+                "responseStatus": "needsAction"
+            }
+        ],
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3409391341828000\"",
+        "id": "o1ehsfullor4u14v7on8q7d5vk_20240508",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=bzFlaHNmdWxsb3I0dTE0djdvbjhxN2Q1dmtfMjAyNDA1MDggbmF0cmFtQHVtaWNoLmVkdQ",
+        "created": "2023-05-14T04:27:07.000Z",
+        "updated": "2024-01-08T06:34:30.914Z",
+        "summary": "nat&cate 1 year anniversary",
+        "creator": {
+            "email": "ckorins@umich.edu"
+        },
+        "organizer": {
+            "email": "ckorins@umich.edu"
+        },
+        "start": {
+            "date": "2024-05-08"
+        },
+        "end": {
+            "date": "2024-05-09"
+        },
+        "recurringEventId": "o1ehsfullor4u14v7on8q7d5vk",
+        "originalStartTime": {
+            "date": "2024-05-08"
+        },
+        "transparency": "transparent",
+        "iCalUID": "o1ehsfullor4u14v7on8q7d5vk@google.com",
+        "sequence": 0,
+        "attendees": [
+            {
+                "email": "ckorins@umich.edu",
+                "organizer": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "natalie.ramirez.mailbox@gmail.com",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "natram@umich.edu",
+                "self": true,
+                "responseStatus": "accepted"
+            }
+        ],
+        "reminders": {
+            "useDefault": false
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3427487943212000\"",
+        "id": "53j6u816kc90sebuin4vharbms_20240520T003000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NTNqNnU4MTZrYzkwc2VidWluNHZoYXJibXNfMjAyNDA1MjBUMDAzMDAwWiBuYXRyYW1AdW1pY2guZWR1",
+        "created": "2024-03-09T18:56:35.000Z",
+        "updated": "2024-04-21T23:59:31.606Z",
+        "summary": "WEB REDESIGN PROJECT \ud83d\udcbb",
+        "location": "https://umich.zoom.us/j/9105195665",
+        "creator": {
+            "email": "ronith@umich.edu"
+        },
+        "organizer": {
+            "email": "ronith@umich.edu"
+        },
+        "start": {
+            "dateTime": "2024-05-19T20:30:00-04:00",
+            "timeZone": "America/Detroit"
+        },
+        "end": {
+            "dateTime": "2024-05-19T21:00:00-04:00",
+            "timeZone": "America/Detroit"
+        },
+        "recurringEventId": "53j6u816kc90sebuin4vharbms_R20240422T003000",
+        "originalStartTime": {
+            "dateTime": "2024-05-19T20:30:00-04:00",
+            "timeZone": "America/Detroit"
+        },
+        "iCalUID": "53j6u816kc90sebuin4vharbms_R20240422T003000@google.com",
+        "sequence": 1,
+        "attendees": [
+            {
+                "email": "natram@umich.edu",
+                "self": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "ronith@umich.edu",
+                "organizer": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "jerusham@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "sabrinx@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "fdelmoli@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "ydaniel@umich.edu",
+                "responseStatus": "needsAction"
+            }
+        ],
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3429358795992000\"",
+        "id": "6tevmksd0e26fnqi2hcp88flv4",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NnRldm1rc2QwZTI2Zm5xaTJoY3A4OGZsdjQgbmF0cmFtQHVtaWNoLmVkdQ",
+        "created": "2024-05-02T19:49:58.000Z",
+        "updated": "2024-05-02T19:49:57.996Z",
+        "summary": "Flight to Chicago (AA 3360)",
+        "description": "American Airlines flight 3360\nCincinnati CVG 6:55pm (local time) - Chicago ORD 7:20pm (local time)\n\nConfirmation number: SYBJPS",
+        "location": "Cincinnati CVG",
+        "creator": {
+            "email": "natram@umich.edu",
+            "self": true
+        },
+        "organizer": {
+            "email": "natram@umich.edu",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2024-05-31T18:55:00-04:00",
+            "timeZone": "America/New_York"
+        },
+        "end": {
+            "dateTime": "2024-05-31T20:20:00-04:00",
+            "timeZone": "America/New_York"
+        },
+        "iCalUID": "6tevmksd0e26fnqi2hcp88flv4@google.com",
         "sequence": 0,
         "reminders": {
             "useDefault": true
@@ -33,86 +244,274 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3361150321086000\"",
-        "id": "3jki5d5dc77g4m3m8212natltc",
+        "etag": "\"3427487943212000\"",
+        "id": "53j6u816kc90sebuin4vharbms_20240603T003000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=M2praTVkNWRjNzdnNG0zbTgyMTJuYXRsdGMgbmF0cmFtQHVtaWNoLmVkdQ",
-        "created": "2023-03-24T15:37:06.000Z",
-        "updated": "2023-04-04T02:26:00.543Z",
-        "summary": "Madrid PDO Make Up - Required Advising Session",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NTNqNnU4MTZrYzkwc2VidWluNHZoYXJibXNfMjAyNDA2MDNUMDAzMDAwWiBuYXRyYW1AdW1pY2guZWR1",
+        "created": "2024-03-09T18:56:35.000Z",
+        "updated": "2024-04-21T23:59:31.606Z",
+        "summary": "WEB REDESIGN PROJECT \ud83d\udcbb",
+        "location": "https://umich.zoom.us/j/9105195665",
         "creator": {
-            "email": "smeer@umich.edu"
+            "email": "ronith@umich.edu"
         },
         "organizer": {
-            "email": "smeer@umich.edu"
+            "email": "ronith@umich.edu"
         },
         "start": {
-            "dateTime": "2023-04-11T16:00:00-04:00",
-            "timeZone": "America/New_York"
+            "dateTime": "2024-06-02T20:30:00-04:00",
+            "timeZone": "America/Detroit"
         },
         "end": {
-            "dateTime": "2023-04-11T17:00:00-04:00",
-            "timeZone": "America/New_York"
+            "dateTime": "2024-06-02T21:00:00-04:00",
+            "timeZone": "America/Detroit"
         },
-        "iCalUID": "3jki5d5dc77g4m3m8212natltc@google.com",
-        "sequence": 0,
+        "recurringEventId": "53j6u816kc90sebuin4vharbms_R20240422T003000",
+        "originalStartTime": {
+            "dateTime": "2024-06-02T20:30:00-04:00",
+            "timeZone": "America/Detroit"
+        },
+        "iCalUID": "53j6u816kc90sebuin4vharbms_R20240422T003000@google.com",
+        "sequence": 1,
         "attendees": [
-            {
-                "email": "angelmgb@umich.edu",
-                "responseStatus": "accepted"
-            },
-            {
-                "email": "smeer@umich.edu",
-                "organizer": true,
-                "responseStatus": "accepted"
-            },
-            {
-                "email": "ertroia@umich.edu",
-                "responseStatus": "accepted"
-            },
-            {
-                "email": "knathani@umich.edu",
-                "responseStatus": "accepted"
-            },
-            {
-                "email": "lnierho@umich.edu",
-                "responseStatus": "accepted"
-            },
             {
                 "email": "natram@umich.edu",
                 "self": true,
                 "responseStatus": "accepted"
             },
             {
-                "email": "rhammett@umich.edu",
+                "email": "ronith@umich.edu",
+                "organizer": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "jerusham@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "sabrinx@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "fdelmoli@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "ydaniel@umich.edu",
                 "responseStatus": "needsAction"
             }
         ],
-        "hangoutLink": "https://meet.google.com/ppt-zfwa-faf",
-        "conferenceData": {
-            "entryPoints": [
-                {
-                    "entryPointType": "video",
-                    "uri": "https://meet.google.com/ppt-zfwa-faf",
-                    "label": "meet.google.com/ppt-zfwa-faf"
-                },
-                {
-                    "regionCode": "US",
-                    "entryPointType": "phone",
-                    "uri": "tel:+1-513-666-2948",
-                    "label": "+1 513-666-2948",
-                    "pin": "743260367"
-                }
-            ],
-            "conferenceSolution": {
-                "key": {
-                    "type": "hangoutsMeet"
-                },
-                "name": "Google Meet",
-                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
-            },
-            "conferenceId": "ppt-zfwa-faf"
+        "reminders": {
+            "useDefault": true
         },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3429358895046000\"",
+        "id": "5pv4t5irho13hjkmnck13bt461",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NXB2NHQ1aXJobzEzaGprbW5jazEzYnQ0NjEgbmF0cmFtQHVtaWNoLmVkdQ",
+        "created": "2024-05-02T19:50:47.000Z",
+        "updated": "2024-05-02T19:50:47.523Z",
+        "summary": "Flight to Cincinnati (AA 3874)",
+        "description": "American Airlines flight 3874\nChicago ORD 7:30pm (local time) - Cincinnati CVG 9:44pm (local time)\n\nConfirmation number: YBBVGI",
+        "location": "Chicago ORD",
+        "creator": {
+            "email": "natram@umich.edu",
+            "self": true
+        },
+        "organizer": {
+            "email": "natram@umich.edu",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2024-06-02T20:30:00-04:00",
+            "timeZone": "America/New_York"
+        },
+        "end": {
+            "dateTime": "2024-06-02T21:44:00-04:00",
+            "timeZone": "America/New_York"
+        },
+        "iCalUID": "5pv4t5irho13hjkmnck13bt461@google.com",
+        "sequence": 0,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3409391341828000\"",
+        "id": "o1ehsfullor4u14v7on8q7d5vk_20240608",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=bzFlaHNmdWxsb3I0dTE0djdvbjhxN2Q1dmtfMjAyNDA2MDggbmF0cmFtQHVtaWNoLmVkdQ",
+        "created": "2023-05-14T04:27:07.000Z",
+        "updated": "2024-01-08T06:34:30.914Z",
+        "summary": "nat&cate anniversary",
+        "creator": {
+            "email": "ckorins@umich.edu"
+        },
+        "organizer": {
+            "email": "ckorins@umich.edu"
+        },
+        "start": {
+            "date": "2024-06-08"
+        },
+        "end": {
+            "date": "2024-06-09"
+        },
+        "recurringEventId": "o1ehsfullor4u14v7on8q7d5vk",
+        "originalStartTime": {
+            "date": "2024-06-08"
+        },
+        "transparency": "transparent",
+        "iCalUID": "o1ehsfullor4u14v7on8q7d5vk@google.com",
+        "sequence": 0,
+        "attendees": [
+            {
+                "email": "ckorins@umich.edu",
+                "organizer": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "natalie.ramirez.mailbox@gmail.com",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "natram@umich.edu",
+                "self": true,
+                "responseStatus": "accepted"
+            }
+        ],
+        "reminders": {
+            "useDefault": false
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3427487943212000\"",
+        "id": "53j6u816kc90sebuin4vharbms_20240617T003000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NTNqNnU4MTZrYzkwc2VidWluNHZoYXJibXNfMjAyNDA2MTdUMDAzMDAwWiBuYXRyYW1AdW1pY2guZWR1",
+        "created": "2024-03-09T18:56:35.000Z",
+        "updated": "2024-04-21T23:59:31.606Z",
+        "summary": "WEB REDESIGN PROJECT \ud83d\udcbb",
+        "location": "https://umich.zoom.us/j/9105195665",
+        "creator": {
+            "email": "ronith@umich.edu"
+        },
+        "organizer": {
+            "email": "ronith@umich.edu"
+        },
+        "start": {
+            "dateTime": "2024-06-16T20:30:00-04:00",
+            "timeZone": "America/Detroit"
+        },
+        "end": {
+            "dateTime": "2024-06-16T21:00:00-04:00",
+            "timeZone": "America/Detroit"
+        },
+        "recurringEventId": "53j6u816kc90sebuin4vharbms_R20240422T003000",
+        "originalStartTime": {
+            "dateTime": "2024-06-16T20:30:00-04:00",
+            "timeZone": "America/Detroit"
+        },
+        "iCalUID": "53j6u816kc90sebuin4vharbms_R20240422T003000@google.com",
+        "sequence": 1,
+        "attendees": [
+            {
+                "email": "natram@umich.edu",
+                "self": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "ronith@umich.edu",
+                "organizer": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "jerusham@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "sabrinx@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "fdelmoli@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "ydaniel@umich.edu",
+                "responseStatus": "needsAction"
+            }
+        ],
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3427487943212000\"",
+        "id": "53j6u816kc90sebuin4vharbms_20240701T003000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NTNqNnU4MTZrYzkwc2VidWluNHZoYXJibXNfMjAyNDA3MDFUMDAzMDAwWiBuYXRyYW1AdW1pY2guZWR1",
+        "created": "2024-03-09T18:56:35.000Z",
+        "updated": "2024-04-21T23:59:31.606Z",
+        "summary": "WEB REDESIGN PROJECT \ud83d\udcbb",
+        "location": "https://umich.zoom.us/j/9105195665",
+        "creator": {
+            "email": "ronith@umich.edu"
+        },
+        "organizer": {
+            "email": "ronith@umich.edu"
+        },
+        "start": {
+            "dateTime": "2024-06-30T20:30:00-04:00",
+            "timeZone": "America/Detroit"
+        },
+        "end": {
+            "dateTime": "2024-06-30T21:00:00-04:00",
+            "timeZone": "America/Detroit"
+        },
+        "recurringEventId": "53j6u816kc90sebuin4vharbms_R20240422T003000",
+        "originalStartTime": {
+            "dateTime": "2024-06-30T20:30:00-04:00",
+            "timeZone": "America/Detroit"
+        },
+        "iCalUID": "53j6u816kc90sebuin4vharbms_R20240422T003000@google.com",
+        "sequence": 1,
+        "attendees": [
+            {
+                "email": "natram@umich.edu",
+                "self": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "ronith@umich.edu",
+                "organizer": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "jerusham@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "sabrinx@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "fdelmoli@umich.edu",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "ydaniel@umich.edu",
+                "responseStatus": "needsAction"
+            }
+        ],
         "reminders": {
             "useDefault": true
         },
